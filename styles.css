@@ -1,0 +1,24 @@
+/* Limit the width of the main element */
+main {
+    max-width: 800px; /* Adjust as needed */
+    margin: 0 auto;   /* Centering the main content */
+}
+
+/* Style the aside element */
+aside {
+    width: 300px; /* Set a fixed width */
+    margin: 20px auto; /* Centering with some spacing */
+    border: 2px solid #333; /* Dark border for contrast */
+    padding: 15px; /* Add spacing inside the box */
+    background-color: #f4f4f4; /* Light gray background */
+    color: #333; /* Dark text for good readability */
+}
+
+/* Ensure contrast ratio is good */
+aside h2 {
+    color: #222; /* Slightly darker text for better readability */
+}
+
+aside p {
+    font-size: 14px; /* Adjust font size for readability */
+}
