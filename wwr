@@ -1,1 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Learn more about our white water rafting adventures and history.">
+    <meta name="author" content="Claudio Lolkipayang'">
+    <title>About Us - White Water Rafting</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&family=Open+Sans:wght@300;400&family=Raleway:wght@500&display=swap" rel="stylesheet">
+
+
+    
+    <!-- Link to external CSS file -->
+    <link rel="stylesheet" href="styles/rafting.css">
+</head>
+<body>
+    <header>
+        <img src="images/wwr-blue.jpg" alt="White Water Rafting Logo">
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="trips.html">Trips</a>
+            <a href="contact.html">Contact Us</a>
+        </nav>
+    </header>
+    
+    <main>
+        <div class="hero">
+            <img src="images/rafting27.jpg" alt="Rafting Adventure Background">
+            <h1>White Water Rafting</h1>
+        </div>
+        
+        <article>
+            <img src="images/happyclient.png" alt="Happy Client Enjoying Rafting">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec...</p>
+        </article>
+        
+        <section>
+            <h2>History</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce vel sapien elit...</p>
+        </section>
+            <h2>Adventure Awaits You!</h2>
+            <img src="images/raft-rapid.jpg" alt="Rafting Experience 1">
+            <img src="images/rafting41.jpg" alt="Rafting Experience 2">
+            
+            <img src="images/rafting49.jpg" alt="Rafting Experience 3">
+            <img src="images/rafting56.jpg" alt="Rafting Experience 4">
+            <img src="images/rafting64.jpg" alt="Rafting Experience 5">
+        </section>
+    </main>
+    
+    <footer>
+        <p>&copy; 2023 Whitewater Rapids | Designed by Lolkipayang'</p>
+        
+        <ul class="social-media">
+            <li>
+            <a href="https://www.facebook.com/">
+                <img src="images/fb.png" alt="Facebook">
+            </a>
+            </li>
+            <li>
+            <a href="https://www.instagram.com/">
+                <img src="images/instag.png" alt="Instagram">
+            </a>
+            </li>
+            <li>
+            <a href="https://www.twitter.com/">
+                <img src="images/x.png" alt="Twitter">
+            </a>
+            </li>
+        </ul>
+    </footer>
+</body>
+</html>
 
