@@ -30,6 +30,9 @@ footer .social-media a {
   position: relative;
   height: 500px; 
   overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .hero img {
@@ -43,8 +46,7 @@ footer .social-media a {
   position: absolute;
   top: 20%; 
   left: 50%;
-  transform: translateX(-50%);
-  color: rgb(235, 115, 79);
+  color: rgb(13, 55, 148);
   font-size: 3em;
   text-align: center;
   z-index: 1;
@@ -69,26 +71,32 @@ footer .social-media a {
   margin-left: 20px;
 }
 
-footer {
-  text-align: center;
-  padding: 20px 0;
-  background-color: var(--secondary-color);
+.history-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
 }
 
-footer .social-media {
-  list-style: none;
-  padding: 0;
-  margin: 10px 0;
+history-item {
+ 
+  border: 1px solid #ccc; 
+  padding: 15px;
+
 }
 
-footer .social-media li {
-  display: inline;
-  margin: 0 10px;
+history-item p {
+  font-style: normal; 
 }
 
-footer .social-media img {
-  width: 32px;
-  height: 32px;
+history-item img {
+  max-width: 100%; 
+  height: auto;
+  display: block; 
+}
+.adventures-container { 
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 10px;
 }
 
 img {
@@ -98,27 +106,41 @@ img {
   margin: 10px auto;
 }
 
-nav a {
+header nav a {
   text-decoration: none;
   padding: 5px 10px;
   margin: 0 5px;
   font-family: 'Raleway', sans-serif;
   color: var(--primary-color);
+  display: flex;
 }
 
-nav a:hover {
+header nav a:hover {
   background-color: var(--accent-color);
   color: white;
 }
 
-header {
+header nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
   display: flex;
+}
+
+header nav ul li {
+  margin-right: 20px; 
+}
+
+header {
+  display: grid;
   justify-content: space-between;
   align-items: center;
   padding: 10px 20px;
+  background-color: var(--secondary-color);
+  color: #fff; 
 }
 
-header img {
+header .logo img {
   max-height: 80px;
 }
 
@@ -129,8 +151,8 @@ main {
 section {
   padding: 20px;
   display: flex; 
-  flex-direction: column;
-  align-items:left; 
+  flex-direction: column; 
+  text-align: center;
 }
 
 section img {
@@ -139,5 +161,32 @@ section img {
   object-fit: cover; 
   margin-bottom: 10px; 
   float: none; 
+}
 
+footer {
+  text-align: center; 
+  padding: 5px;
+  background-color: var(--secondary-color);
+  color: var(--text-color);
+  font-size: 0.9rem;
+  margin-top: 3rem;
+  display: flex; 
+  justify-content: center;
+  align-items: center;
+}
+
+footer ul {
+  list-style: none;
+  padding: 0;
+  margin: 0; 
+  display: flex; 
+  justify-content: right;
+  
+}
+
+footer img {
+  width: 32px; 
+  height: 32px; 
+  opacity: 0.7;
+  justify-content: flex-end; 
 }
